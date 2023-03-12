@@ -1,0 +1,15 @@
+kind: pod
+metadata:
+ name: mypod
+ labels:
+  app: nginx
+spec:
+ container:
+  - name: pod1
+    image: nginx:1.14.2
+    command: ['sh']
+    ports:
+     - containerPort: 80
+ volumes:
+  - name: v1
+    

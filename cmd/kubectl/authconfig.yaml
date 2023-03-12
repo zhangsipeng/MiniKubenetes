@@ -1,0 +1,5 @@
+init: true
+apiserverip: 127.0.0.1
+token: Sw
+cahash: a8f4f40b9c268cd10a61d44654013add781254880e5e0fed58039dd21bd09e76
+configfilename: C:\Users\86177\Desktop\minik8s\programdata\default-config.yaml

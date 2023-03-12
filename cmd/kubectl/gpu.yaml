@@ -1,0 +1,11 @@
+kind : gpu
+name : gpu_Add
+# src : 
+#  - ./cudaAdd_.cu
+# script: ./cudaAdd_.sh
+giturl : https://gitee.com/zhangsp_177/gpudata.git
+config :
+ nodes : 1
+ tskpernode : 1
+ cpupertsk : 6
+ gpunum : 1
